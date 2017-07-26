@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestTableView.h
 //  ResponeChainTest
 //
 //  Created by iBlock on 2017/7/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TestTableView : UITableView
 
 @end
-

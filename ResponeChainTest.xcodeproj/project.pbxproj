@@ -14,6 +14,9 @@
 		37A419111F28391D00F1E4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A419101F28391D00F1E4E5 /* Assets.xcassets */; };
 		37A419141F28391D00F1E4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A419121F28391D00F1E4E5 /* LaunchScreen.storyboard */; };
 		37A4191F1F28391D00F1E4E5 /* ResponeChainTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4191E1F28391D00F1E4E5 /* ResponeChainTestTests.m */; };
+		37A4192B1F28394700F1E4E5 /* UIResponder+DJEventRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4192A1F28394700F1E4E5 /* UIResponder+DJEventRouter.m */; };
+		37A4192E1F283A7B00F1E4E5 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A4192D1F283A7B00F1E4E5 /* TableViewCell.m */; };
+		37A419311F283A9200F1E4E5 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A419301F283A9200F1E4E5 /* TestTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		37A4191A1F28391D00F1E4E5 /* ResponeChainTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponeChainTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A4191E1F28391D00F1E4E5 /* ResponeChainTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponeChainTestTests.m; sourceTree = "<group>"; };
 		37A419201F28391D00F1E4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A419291F28394700F1E4E5 /* UIResponder+DJEventRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+DJEventRouter.h"; sourceTree = "<group>"; };
+		37A4192A1F28394700F1E4E5 /* UIResponder+DJEventRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+DJEventRouter.m"; sourceTree = "<group>"; };
+		37A4192C1F283A7B00F1E4E5 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		37A4192D1F283A7B00F1E4E5 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		37A4192F1F283A9200F1E4E5 /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		37A419301F283A9200F1E4E5 /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +99,12 @@
 				37A419121F28391D00F1E4E5 /* LaunchScreen.storyboard */,
 				37A419151F28391D00F1E4E5 /* Info.plist */,
 				37A419041F28391C00F1E4E5 /* Supporting Files */,
+				37A419291F28394700F1E4E5 /* UIResponder+DJEventRouter.h */,
+				37A4192A1F28394700F1E4E5 /* UIResponder+DJEventRouter.m */,
+				37A4192C1F283A7B00F1E4E5 /* TableViewCell.h */,
+				37A4192D1F283A7B00F1E4E5 /* TableViewCell.m */,
+				37A4192F1F283A9200F1E4E5 /* TestTableView.h */,
+				37A419301F283A9200F1E4E5 /* TestTableView.m */,
 			);
 			path = ResponeChainTest;
 			sourceTree = "<group>";
@@ -217,7 +232,10 @@
 			files = (
 				37A4190C1F28391D00F1E4E5 /* ViewController.m in Sources */,
 				37A419091F28391D00F1E4E5 /* AppDelegate.m in Sources */,
+				37A4192B1F28394700F1E4E5 /* UIResponder+DJEventRouter.m in Sources */,
+				37A4192E1F283A7B00F1E4E5 /* TableViewCell.m in Sources */,
 				37A419061F28391D00F1E4E5 /* main.m in Sources */,
+				37A419311F283A9200F1E4E5 /* TestTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
